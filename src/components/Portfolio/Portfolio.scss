@@ -1,0 +1,122 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: whitesmoke;
+  padding: 1rem;
+  .portfolio__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .selected__projects{
+        color:rgb(86, 83, 88);
+        margin-bottom:-20px;
+    }
+
+    .portfolio__title{
+        width: 80%;
+        font-size: large;
+    }
+  }
+
+  .text__filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    p{
+        width: 50%;
+        font-size: medium;
+        color: grey;
+        text-align: center;
+    }
+    hr {
+      width: 60%;
+      color: grey;
+    }
+    .text__filter__list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      cursor: pointer;
+      .text__filter__item {
+        font-size: medium;
+        &:hover {
+          color: red;
+        }
+      }
+
+      .text__filter__active {
+        color: red;
+      }
+    }
+  }
+  .filter__bar {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      margin: 1rem;
+      margin-bottom: 2rem;
+      cursor: pointer;
+
+      &:hover {
+        color: red;
+      }
+    }
+    .filter__items {
+      display: flex;
+      gap: 1rem;
+      margin: 1rem;
+      margin-bottom: 2rem;
+      .filter__title {
+        color: grey;
+      }
+      .filter__item {
+        font-size: medium;
+        cursor: pointer;
+
+        &:hover {
+          color: red;
+        }
+      }
+
+      .filter__active {
+        color: red;
+      }
+    }
+  }
+
+  .portfolio__items {
+    width: 70%;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+    .portfolio__item {
+      margin-bottom: 10px;
+      .portfolio__item__image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        &:hover {
+          opacity: 0.5;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
