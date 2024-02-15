@@ -10,20 +10,20 @@ const Testimonials = () => {
   const testimonialsData = [
     {
       title: 'Great Experience',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      author: 'John Doe',
+      description: 'Knowing that there are many web design and development companies in Mumbai, India, we were spoilt for choice in deciding whom to outsource our work to. After thorough research and multiple discussions, we decided to go ahead with Techymonks. Not only they exceeded our expectations but they provided us innovative ways to scale our business. Highly recommended!!',
+      author: 'Rahul Sharma',
       image: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Replace with actual image URL
     },
     {
       title: 'Awesome Service',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      author: 'Jane Smith',
+      description: 'Attention to detail, proactive approach, innovative ideas, client satisfaction are some of the key traits that describes Techymonks. We have entrusted Techymonks team to handle SEO, mobile application development and branding for our company and they were excellent in all areas. Pretty satisfied with the work. Will definitely work with them again',
+      author: 'Vikas Choudhary',
       image: 'https://images.unsplash.com/photo-1581382575275-97901c2635b7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Replace with actual image URL
     },
     {
       title: 'Good Support',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      author: 'Jane Smith',
+      description: 'Techymonks transformed our online presence with cutting-edge design and flawless functionality. Their team exceeded expectations, delivering excellence with precision.',
+      author: 'Karun Sharma',
       image: 'https://images.unsplash.com/photo-1581382575275-97901c2635b7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Replace with actual image URL
     },
     // Add more testimonials as needed
@@ -42,8 +42,7 @@ const Testimonials = () => {
     <div className="testimonials-container">
       <img src="/quote.png" alt="" />
       <h2>What they're saying</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusamus, cupiditate earum iure eos architecto repellat aut tempore culpa non.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, accusamus! Explicabo eius voluptatem repellat enim.
+      <p>Get ready to dive into the juiciest chapter of our customer stories. No filters, just raw and modern tales of satisfaction that'll have you saying, "That's my kind of vibe." Let the real talk unfold as our community shares their journey with a touch of sass and a dash of wow.
       </p>
       <hr />
       <Slider {...sliderSettings}>

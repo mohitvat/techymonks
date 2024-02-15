@@ -2,12 +2,11 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./Contact.scss";
 const images = [
-  "/brands/brand1.svg",
+  "/brands/brand1.png",
   "/brands/brand2.png",
   "/brands/brand3.png",
   "/brands/brand4.png",
-  "/brands/brand1.svg",
-  "/brands/brand2.png",
+  "/brands/brand5.png",
 ];
 const ContactForm = () => {
   const formRef = useRef();
@@ -52,8 +51,8 @@ const ContactForm = () => {
         <h1>Frictionless, delightfull design starts here</h1>
         <h3>Book a demo and discovery call to get a look at:</h3>
         <ul>
-          <li> How Scaler Studio works</li>
-          <li>How you can do design at scale better, faster and cheaper</li>
+          <li> How Techymonks works</li>
+          <li>How you can do development at scale better, faster and cheaper</li>
           <li>
             How we’re different from agencies, freelancers and in-house design
             teams (hint: we’re 20x faster than hiring!)

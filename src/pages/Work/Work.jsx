@@ -3,25 +3,25 @@ import "./Work.scss";
 const work_items = [
   {
     id: 0,
-    image: "/image-1.jpg",
+    image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "UI/UX Design",
     tag: "Design",
   },
   {
     id: 1,
-    image: "/image-1.jpg",
+    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Brand Website",
     tag: "Website Development",
   },
   {
     id: 2,
-    image: "/image-1.jpg",
+    image: "https://images.unsplash.com/photo-1601972602237-8c79241e468b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Payment App",
     tag: "Mobile App",
   },
   {
     id: 3,
-    image: "/image-1.jpg",
+    image: "https://images.unsplash.com/photo-1623282033815-40b05d96c903?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "API Development",
     tag: "Other",
   },

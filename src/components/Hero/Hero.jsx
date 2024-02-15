@@ -11,19 +11,19 @@ const Hero = () => {
           <div className="text">
             <img src="/logos/1.png" alt="" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Full suite of digital marketing services to grow your business 
             </p>
           </div>
           <div className="text">
             <img src="/logos/2.png" alt="" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Over 10 years of experience. Trusted by 500+ brands globally. 
             </p>
           </div>
           <div className="text">
             <img src="/logos/3.png" alt="" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Affordable, process and quality oriented for businesses small and big 
             </p>
           </div>
         </div>

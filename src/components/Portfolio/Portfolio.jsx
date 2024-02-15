@@ -47,11 +47,11 @@ const Portfolio = () => {
   ];
 
   const text__filters_data = [
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur placeat amet sit laborum, commodi consequuntur accusamus maxime maiores inventore, aliquid ex et esse non ad cumque, deserunt perferendis quam quisquam?1",
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempore temporibus quod nobis voluptatibus eligendi architecto, id labore officiis! Natus!2",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur placeat amet sit laborum, commodi consequuntur accusamus maxime maiores inventore, aliquid ex et esse non ad cumque, deserunt perferendis quam quisquam?3",
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempore temporibus quod nobis voluptatibus eligendi architecto, id labore officiis! Natus!4",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur placeat amet sit laborum, commodi consequuntur accusamus maxime maiores inventore, aliquid ex et esse non ad cumque, deserunt perferendis quam quisquam?5",
+    "Crafting cutting-edge mobile apps that defy the ordinary. From sleek interfaces to seamless functionality, we bring your ideas to life on every device. Elevate your digital presence with our innovative mobile development solutions.",
+    "Welcome to the visual frontier. Our front-end wizards create stunning, user-centric interfaces that captivate and engage. Immerse your audience in a seamless digital experience with our expertly crafted front-end solutions.",
+    "In the realm of data, we reign supreme. Harness the power of organized information with our robust database solutions. From architecture to optimization, we transform your data into a strategic asset that propels your business forward",
+    "Empower your content, effortlessly. Our Content Management Systems (CMS) redefine simplicity and control. Navigate the digital landscape with ease as we tailor dynamic CMS solutions that make content creation and management a breeze.",
+    "Embrace the future of streamlined development and operations. Our Dev-Ops expertise ensures your software delivery process is seamless, automated, and resilient. Experience efficiency, collaboration, and rapid deployment with our cutting-edge Dev-Ops solutions.",
   ];
 
   const [currentText, setCurrentText] = useState(text__filters_data[0]);
@@ -65,7 +65,7 @@ const Portfolio = () => {
   };
   return (
     <div className="portfolio" id="portfolio">
-      <div className="portfolio__header">
+      {/* <div className="portfolio__header">
         <div className="selected__projects">
           <h4>SELECTED PROJECTS</h4>
         </div>
@@ -102,14 +102,11 @@ const Portfolio = () => {
                 <div className="portfolio__item__image">
                   <img src={item.image} alt={item.title} />
                 </div>
-                {/* <div className="portfolio__item__content">
-          <h3>{item.title}</h3>
-          <p>{item.desc}</p>
-        </div> */}
+                
               </div>
             )
         )}
-      </div>
+      </div> */}
 
       <div className="text__filters">
         <h1>Technologies will bring maximum value to your business</h1>
