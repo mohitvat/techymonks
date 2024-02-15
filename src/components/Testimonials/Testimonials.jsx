@@ -10,7 +10,7 @@ const Testimonials = () => {
   const testimonialsData = [
     {
       title: 'Great Experience',
-      description: 'Knowing that there are many web design and development companies in Mumbai, India, we were spoilt for choice in deciding whom to outsource our work to. After thorough research and multiple discussions, we decided to go ahead with Techymonks. Not only they exceeded our expectations but they provided us innovative ways to scale our business. Highly recommended!!',
+      description: 'Knowing that there are many web design and development companies in Bangalore, India, we were spoilt for choice in deciding whom to outsource our work to. After thorough research and multiple discussions, we decided to go ahead with Techymonks. Not only they exceeded our expectations but they provided us innovative ways to scale our business. Highly recommended!!',
       author: 'Rahul Sharma',
       image: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Replace with actual image URL
     },

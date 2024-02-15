@@ -18,13 +18,13 @@ const Footer = () => {
         />
         <div className="footer__address">
           <div className="address__wrapper">
-            <span className="address">123 Main St, Cityville</span>
+            <span className="address">A-703 Salarpuria Sattva Gold Summit, Kothanur, Bangalore - 560077</span>
           </div>
           <div className="email__wrapper">
-            <span className="email">contact@techymonks.com</span>
+            <span className="email">info@techymonks.com</span>
           </div>
           <div className="phone__wrapper">
-            <span className="phone">+91 1234567890</span>
+            <span className="phone">+91 9790613656</span>
           </div>
          
         </div>
@@ -32,21 +32,22 @@ const Footer = () => {
       <div className="info__section">
         <h1>Crafting a result oriented digital presence for innovators</h1>
         <hr />
-        <ul>
+        {/* <ul>
           <li>Home</li>
           <li>Services</li>
           <li>Work</li>
           <li>About</li>
           <li>Contact</li>
-        </ul>
+        </ul> */}
         <div className="footer__icon__section">
-          <h5>2023 Techymonks</h5>
+          <h5>2022 Techymonks</h5>
           <h5>Connect with Techymonks</h5>
-          <div className="footer__icons">
+          <h5>© 2022 TechyMonks. All rights reserved. </h5>
+          {/* <div className="footer__icons">
             <FaTwitter className="footer__icon" />
             <FaLinkedinIn className="footer__icon" />
             <FaInstagram className="footer__icon" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

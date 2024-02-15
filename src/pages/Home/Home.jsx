@@ -13,14 +13,14 @@ const Home = () => {
       <Hero />
       <div className="text__section">
         <div className="text__header">
-          <h1>Website Development, Web Design Company in Mumbai, India</h1>
+          <h1>Website Development, Web Design Company in Bangalore, India</h1>
           <p>
             Techymonks is a professional web development and website design
-            company in Mumbai, India with over 10+ years of experience in the
+            company in Bangalore, India with over 10+ years of experience in the
             digital industry. Apart from our role as a web development agency,
             we also offer 360 degree digital services to help you grow your
             business online. We are proud to have some of the best website
-            developers and web designers in Mumbai, India.
+            developers and web designers in Bangalore, India.
           </p>
         </div>
 

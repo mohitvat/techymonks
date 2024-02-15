@@ -7,10 +7,9 @@ const Contactform = () => {
         <div className="text__section">
           <h1>Have a project in mind?</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
-            soluta impedit cumque atque consectetur nemo? Dolorum est
-            exercitationem sint numquam, esse dicta natus sed tempora ducimus.
-            Repudiandae officiis hic vero.
+          Looking for collaboration? Send an email to
+info@techymonks.com for enquires and
+collaborations.
           </p>
         </div>
         <div className="form__section">

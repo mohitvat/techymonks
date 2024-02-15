@@ -86,7 +86,14 @@ const Navbar = () => {
           </NavLink>
         </li>
       </ul>
-      <button>Get Started</button>
+       <NavLink
+            to="/contact"
+            className={
+              "navlink" + (activeLink === "/contact" ? " navlink__active" : "")
+            }
+          ><button> 
+           Get Started</button>
+          </NavLink>
     </nav>
   );
 };

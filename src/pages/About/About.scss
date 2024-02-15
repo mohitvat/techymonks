@@ -52,10 +52,13 @@
             }
             button{
                 border: none;
+                font-size: 20px;
                 background-color: transparent;
                 padding-bottom: 10px;
                 border-bottom: 2px solid red;
+                cursor: pointer;
             }
+            
         }
     }
     .about__section1{
